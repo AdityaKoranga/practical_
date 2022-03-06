@@ -11,6 +11,7 @@ int main(){
         in>>temp;
         str.append(temp);
     }
+    cout<<str;
     out<<str;
     in.close();
     out.close();
