@@ -11,10 +11,10 @@ int main(){
         in>>temp;
         str.append(temp);
     }
-    cout<<str;
+    cout<<str<<endl;
     out<<str;
     in.close();
     out.close();
-    cout<<"Data reached";
+    
     return (0);
 }   
