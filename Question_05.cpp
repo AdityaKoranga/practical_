@@ -26,7 +26,7 @@ void print(int arr3[],int size){
 
 int main(){
     int arr1[5]={1,3,4,6,7};
-    int arr2[6]={2,5,8,9,};
+    int arr2[6]={2,5,8,9,10,12};
     int arr3[11]={0};
     merge_array(arr1, 5, arr2, 6, arr3);
     print(arr3,11);
