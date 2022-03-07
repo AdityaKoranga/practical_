@@ -12,9 +12,6 @@ public:
         {
             for (int j = 0; j < i; j++)
             {
-                // int temp = matrix[i][j];
-                // matrix[i][j] = matrix[j][i];
-                // matrix[j][i] = temp;
                 swap(matrix[i][j], matrix[j][i]);
             }
         }
