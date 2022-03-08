@@ -67,12 +67,12 @@ int main()
 {
     Person *obj1;
 
-    Student obj2("Shubham", "BSc_CS", 25, 1);
+    Student obj2("Aditya", "Computer_Science", 25, 1);
 
     obj1 = &obj2;
     obj1->display();
 
-    Employee obj3("Shubham", "Computer_Department", 100000);
+    Employee obj3("koranga", "Computer", 10000);
     obj1 = &obj3;
     obj1->display();
 

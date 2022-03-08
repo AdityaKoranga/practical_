@@ -24,7 +24,7 @@ public:
             }
             cout << endl;
         }
-        system("pause");
+        
     }
 
     void sum(vector<vector<int>> matrix1, vector<vector<int>> matrix2)
@@ -51,7 +51,7 @@ public:
             }
             cout << endl;
         }
-        system("pause");
+        
     }
 
     void product(vector<vector<int>> matrix1, vector<vector<int>> matrix2)

@@ -1,7 +1,9 @@
+//compute the first n terms of the following series
+
 #include <bits/stdc++.h>
 using namespace std;
 
-double Series(int n)
+double FirstNSeries(int n)
 {
     int i;
     double sum = 0.0;
@@ -22,7 +24,7 @@ int main(int argc, char *argv[])
         int n;
         cout << "Enter your number : ";
         cin >> n;
-        cout << Series(n);
+        cout << FirstNSeries(n);
     }
 
     int i;

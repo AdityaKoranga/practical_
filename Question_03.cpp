@@ -1,3 +1,5 @@
+//number of occurance
+
 #include <iostream>
 #include <string>
 #include <algorithm>

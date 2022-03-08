@@ -1,3 +1,5 @@
+//following operatins on strings
+
 #include<bits/stdc++.h>
 using namespace std;
 
