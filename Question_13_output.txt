@@ -1,0 +1,5 @@
+21  aditya    3  1  33
+21  das    2  3  55
+24  fwfe    3  2  12
+35  fsdf    5  2  78
+28  addi    2  4  34
