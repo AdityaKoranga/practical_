@@ -11,10 +11,13 @@ int main(){
     for (int i=0; i<n; i++){
         s.insert(arr[i]);
     }
-    set<int>::iterator itr;
-    for (itr=s.begin(); itr!=s.end(); itr++){
-        cout<<*itr<<' ';
+    // set<int>::iterator itr;
+    for(auto i: s){
+        cout<<i<<" ";
     }
+    // for (itr=s.begin(); itr!=s.end(); itr++){
+    //     cout<<*itr<<' ';
+    // }
 
     return (0);
 }

@@ -21,6 +21,7 @@ void show_addr(){
     int n= size(str);
     for (int i=0; i<n; i++){
         cout<<"Address of "<<str[i]<<" is "<<static_cast<void*>(&str[i])<<endl;
+    
     }
 }
 
