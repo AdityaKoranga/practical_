@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     }
     cout << s << endl;
 
-    int freq[26] = {0}; // because we have 26 alphabets.
+    int freq[26] = {0}; // because we have 26 alphabets.  //aditya
 
     for (int i = 0; i < s.size(); i++)
     {
